@@ -38,6 +38,6 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 }
 
 function removeElementFromEndOfArray(array) {
-  var array = array.slice(2)
+  var array = array.slice(-2)
   return array
 }
